@@ -6,20 +6,16 @@
 
 
         <!-- banner image -->
-        <p-carousel [value]="photos" [numVisible]="1" [numScroll]="1" [circular]="true">
-          <ng-template let-photo #item>
-            <div class="border border-surface rounded-border m-2 p-4">
-              <div class="mb-4">
-                <div class="relative mx-auto">
-                  <img [src]="photo.image" [alt]="photo.image" class="w-full rounded-border" />
-                </div>
-              </div>
-            </div>
-          </ng-template>
-        </p-carousel>
+        <p-carousel [value]="photos" [numVisible]="1" [numScroll]="1" [circular]="true" [autoplayInterval]="4000">
+  <ng-template pTemplate="item" let-photo>
+    <img [src]="photo.image" alt="Imagen carrusel" class="carousel-image" />
+  </ng-template>
+</p-carousel>
       </div>
     </div>
   </div>
+
+  
   <!-- background shapes -->
   <div id="scene">
     <img class="img-fluid hero-bg-1 up-down-animation" src="/images/background-shape/feature-bg-2.png" alt="" />
@@ -32,5 +28,7 @@
     <img class="img-fluid hero-bg-8 up-down-animation" src="/images/background-shape/service-half-cycle.png" alt="" />
     <img class="img-fluid hero-bg-9 up-down-animation" src="/images/background-shape/team-bg-triangle.png" alt="" />
   </div>
+
+  
 </section>
 <!-- /hero-area -->

@@ -17,19 +17,22 @@ export class HeroComponent implements OnInit {
   ngOnInit(): void {
     this.photos=[
       {
-        image: '/images/background-shape/feature-bg-2.png'
+        image: '/images/carrusel/imagen1.webp'
       },
       {
-        image:'/images/background-shape/feature-bg-2.png'
+        image:'/images/carrusel/imagen2.webp'
       },
       {
-        image:'/images/background-shape/feature-bg-2.png'
+        image:'/images/carrusel/imagen3.jpeg'
       },
       {
-        image:'/images/background-shape/feature-bg-2.png'
+        image:'/images/carrusel/imagen4.jpeg'
       },
       {
-        image:'/images/background-shape/feature-bg-2.png'
+        image:'/images/carrusel/imagen5.jpeg'
+      },
+      {
+        image:'/images/carrusel/imagen6.jpeg'
       }
     ]
   }

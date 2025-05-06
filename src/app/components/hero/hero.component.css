@@ -1,0 +1,12 @@
+.carousel-image {
+    width: 100%;
+    max-width: 800px;       /* Tamaño máximo permitido */
+    height: 400px;          /* Altura fija para el contenedor */
+    object-fit: contain;    /* 👈 Esto evita que se corte la imagen */
+    background-color: #fff; /* Fondo para que no se vea vacío si sobran márgenes */
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+
+  }
+  
