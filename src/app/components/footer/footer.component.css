@@ -1,0 +1,11 @@
+.social-icon {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+  }
+  .footer-nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+    
